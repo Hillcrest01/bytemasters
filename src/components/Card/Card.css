@@ -1,0 +1,45 @@
+/* .card{
+    background-color: #DDE3ED;
+    width: 400px;
+    height: 560px;
+    border-radius: 10px;
+}
+.card img{
+    width: 350px;
+    height: 300px;
+    padding-top: 20px;
+    border-radius: 5px;
+} */
+
+.card {
+    background-color: #F4F0ED;
+    width: 100%; 
+    max-width: 350px; 
+    height: auto; 
+    border-radius: 10px;
+    margin: 0 auto; /* Center the card */
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.card img {
+    width: 100%; /* Make the image responsive within the card */
+    max-width: 350px; /* Maintain a maximum width for larger screens */
+    height: 300px; /* Maintain aspect ratio */
+    /* padding-top: 20px; */
+    border-radius: 5px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .card {
+        width: 95%; /* Slightly smaller width for compact screens */
+    }
+}
+
+/* Media query for very small screens */
+@media (max-width: 480px) {
+    .card img {
+        width: 100%; /* Make the image fit the smaller card width */
+    }
+}

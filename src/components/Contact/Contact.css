@@ -1,0 +1,124 @@
+.contact-content{
+    text-align: center;
+    display: flex;
+    padding: 50px;
+    background-color: #0A0F16;
+    color: #ffffff;
+    padding-bottom: 0px;
+}
+
+.contact-text-content{
+    text-align: center;
+    padding-top: 100px;
+}
+.contact-content h1{
+    font-size: 60px;
+}
+
+.contact-btns{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding-top: 30px;
+}
+
+.contact-button-one{
+        width: 160px;
+        height: 60px;
+        border: none;
+        font-family: 'Poppins' , sans-serif;
+        background-color: #ffffff;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 15px;
+        color: #212121;
+        border: 1px solid orange;
+}
+.contact-button-one:hover{
+    background-color: orange;
+    color: #ffffff;
+    transition-duration: 0.8s;
+}
+.contact-button-two{
+    width: 160px;
+        height: 65px;
+        border: none;
+        font-family: 'Poppins' , sans-serif;
+        background-color: orange;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+        color: #ffffff;
+        font-size: 15px;
+}
+.contact-button-two:hover{
+    background-color: #ffffff;
+    color: #212121;
+    border: 1px solid black;
+    transition-duration: 0.8s;
+}
+
+.images img{
+    padding-top: 30px;
+    padding-left: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+    max-height: 700px;
+}
+
+.copyright{
+    padding-top: 30px;
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .contact-content {
+        padding: 20px;
+    }
+
+    .contact-content h1 {
+        font-size: 40px;
+    }
+
+    .contact-btns {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .contact-button-one, .contact-button-two {
+        width: 140px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .images img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .contact-content {
+        padding: 15px;
+    }
+
+    .contact-content h1 {
+        font-size: 30px;
+    }
+
+    .contact-btns {
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .contact-button-one, .contact-button-two {
+        width: 130px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .images img {
+        width: 100%;
+    }
+}

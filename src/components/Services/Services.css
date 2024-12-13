@@ -1,0 +1,111 @@
+/* .services{
+    text-align: center;
+    
+}
+.text-content h1{
+    font-size: 50px;
+}
+.text-content p{
+    padding-left:80px;
+    padding-right: 80px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+} */
+
+
+.services {
+    text-align: center;
+    padding: 20px;
+}
+
+.text-content h1 {
+    font-size: 40px; /* Adjusted font size for smaller screens */
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px; /* Adjust font size for readability on smaller devices */
+    line-height: 1.5;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping for smaller screens */
+    justify-content: center; /* Center-align cards in smaller screens */
+    gap: 20px; /* Add more space between cards for clarity */
+}
+
+.card {
+    width: 90%; /* Default responsive width */
+    max-width: 300px; /* Maintain a reasonable size for each card */
+    margin: 10px auto; /* Center the card and add margin */
+    text-align: center; /* Center-align card content */
+}
+
+/* Media queries for responsive adjustments */
+@media (min-width: 768px) {
+    .text-content h1 {
+        font-size: 50px; /* Original font size for larger screens */
+    }
+
+    .text-content p {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .cards {
+        justify-content: space-around; /* Original alignment for larger screens */
+    }
+
+    .card {
+        max-width: 400px; /* Larger width for cards on bigger screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .text-content h1 {
+        font-size: 35px; /* Reduce heading size for very small screens */
+    }
+
+    .text-content p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .card {
+        width: 100%; /* Cards take full width on small screens */
+    }
+}
+
+.services button{
+    margin-top: 30px;
+    width: 180px;
+        height: 60px;
+        border: none;
+        font-family: 'Poppins' , sans-serif;
+        background-color: #212121;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 15px;
+        color: #ffffff;
+}
+.services button:hover{
+        background-color: #ffffff;
+        border: 1px solid black;
+        color: #212121;
+        transition-duration: 0.8s;
+    }
+
+@media(max-width: 480px){
+    .services button{
+        margin-top: 20px;
+        height: 45px;
+        font-size: 12px;
+    }
+}
