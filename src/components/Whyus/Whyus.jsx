@@ -15,12 +15,10 @@ const Whyus = () => {
           needs, offering innovative solutions that deliver measurable success.
           With cutting-edge technology and a commitment to long-term
           partnerships, we ensure your growth and continued success in a
-          constantly evolving digital landscape.
-          <ul>
-            <li> High skilled team</li>
-            <li>Client-Centered Approach</li>
-            <li>Proven Results</li>
-          </ul>
+          constantly evolving digital landscape. <br /> <br />
+             <strong>High skilled personnels </strong> <br />
+            <strong>Client-Centered Approach </strong> <br />
+            <strong> Industry Proven Results </strong> <br />
         </p>
       </div>
       <img src={whyUsImage} alt="why us image here" />
