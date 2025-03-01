@@ -11,7 +11,7 @@ const Hero = () => {
       <img src={starRating} alt="a star rating image here" />
       <p>
         {" "}
-        Helping 100+ companies and individuals get better around the world{" "}
+        Helping 50+ companies and individuals get better around the world{" "}
       </p>
       <div className="hero">
         <div>
