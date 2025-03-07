@@ -18,7 +18,7 @@ const Hero = () => {
           <h1>Ready to take your business growth to the next level?</h1>
           <p>
             Whether you're looking to streamline operations, reach new
-            customers, or enhance your online presence, we're here to guide you
+            customers, or enhance your online presence via a portfolio, we're here to guide you
             every step of the way. 
           </p>
           <div className="buttons">
