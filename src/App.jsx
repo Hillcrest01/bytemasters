@@ -15,6 +15,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
+{/*       this makes the navbar accessible by all other components */}
       <Routes>
         <Route path='/' element = { <Home /> }/>
         <Route path='/services' element = { <BytemastersServices /> }/>
