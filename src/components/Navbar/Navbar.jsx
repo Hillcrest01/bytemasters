@@ -50,7 +50,7 @@ const Navbar = () => {
 
             <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
                 <a href="/"><li onClick={() => { setMenu("Home"); setIsOpen(false); }} className={menu === "Home" ? "active" : ""}>Home</li></a>
-                <a href="/about"><li onClick={() => { setMenu("About"); setIsOpen(false); }} className={menu === "About" ? "active" : ""}>About Us</li></a>
+                <a href="/about"><li onClick={() => { setMenu("About"); setIsOpen(false); }} className={menu === "About" ? "active" : ""}>About ByteMasters</li></a>
                 <a href="/services"><li onClick={() => { setMenu("Services"); setIsOpen(false); }} className={menu === "Services" ? "active" : ""}>Our Services</li></a>
                 <a href="/contact"><li onClick={() => { setMenu("Help"); setIsOpen(false); }} className={menu === "Help" ? "active" : ""}>Help Center</li></a>
                 <a href="https://wa.link/qju2um"><button onClick={() => setIsOpen(false)}>Get in Touch</button></a>
