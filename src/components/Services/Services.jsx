@@ -17,7 +17,7 @@ const Services = () => {
         </h1>
         <p>
           At <strong>ByteMasters Tech.</strong> , we offer a wide range of
-          digital services to help your business thrive in the modern world.
+          digital services to assist your business thrive in the modern world.
           From developing responsive websites that captivate your audience, to
           crafting custom software solutions that optimize your operations.
           Elevate your business today with us
