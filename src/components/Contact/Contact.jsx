@@ -10,8 +10,8 @@ const Contact = () => {
       <div className="contact-text-content">
         <h1>Contact us today for a free consultation</h1>
         <p>
-          We're here to help you take your business to the next level. Get in
-          touch with us today for a free consultation, where we’ll discuss how
+          We're here to help you take your business to the next level. Reach us
+           today for a free consultation, where we’ll discuss how
           our services can support your goals and provide solutions tailored to
           your needs. Reach out now, and let's start working together!
         </p>
